@@ -7,9 +7,9 @@ const ContactMeLeft = () => {
         <div>
             <h2 className='text-orange text-3xl mb-4'>Get In Touch</h2>
             <p className='text-white'>
-                Feel free to reach out if you like to collaborate
+                Thank you for your interest in getting in touch!
                 <br />
-                you are just a few clicks away!
+                I welcome any inquries or collaboration opportunities. You can reach me by filling out the form or via linkedin.
             </p>
         </div>
         <ContactForm />

@@ -32,9 +32,9 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-grey"
       >
-        A Passionate Web Developer
+        Computer Science & AI,
         <br />
-        with 3 years of experience.
+        2026 at University of British Columbia
       </motion.p>
     </div>
   );

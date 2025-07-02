@@ -6,22 +6,10 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
-    responsibilities: ["filler", "filler", "filler", "filler"],
-  },
-  {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
-    responsibilities: ["filler", "filler", "filler", "filler"],
-  },
-  {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
-    responsibilities: ["filler", "filler", "filler", "filler"],
+    job: "Clinical Research Assistant",
+    company: "Arthritis Research Canada",
+    date: "2018 - 2022",
+    responsibilities: ["Managed operations of a Canada-Wide randomized controlled clinical study", "Coordinated the delivery of 50+ return-to-work program for workers with arthritis  ", "Built an online interactive educational program to help workers with arthritis to deal with work place challenges ", "Liason with international researchers to discuss adoption of the Making it Work program in other countries"],
   },
 ];
 
@@ -31,7 +19,7 @@ const AllExperiences = () => {
       {experiences.map((experience, index) => {
         return (
           <>
-            <SingleExperience key={index} experience={experience} />;
+            <SingleExperience key={index} experience={experience} />
             {index < 2 ? (
               <motion.div
                 variants={fadeIn("right", 0.2)}
@@ -39,7 +27,7 @@ const AllExperiences = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0 }}
               >
-                <FaArrowRight className="text-6xl text-orange lg:block sm:hidden" />
+                <FaArrowRight className="text-6xl text-orange lg:hidden sm:hidden" />
               </motion.div>
             ) : (
               ""

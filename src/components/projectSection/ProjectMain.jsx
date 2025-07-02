@@ -40,7 +40,7 @@ const ProjectMain = () => {
         <ProjectText />
       </motion.div>
 
-      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+      {/*<div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
         {projects.map((item, index) => {
           return (
             <SingleProject
@@ -52,7 +52,7 @@ const ProjectMain = () => {
             />
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
