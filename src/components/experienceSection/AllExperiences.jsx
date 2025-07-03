@@ -9,7 +9,7 @@ const experiences = [
     job: "Clinical Research Assistant",
     company: "Arthritis Research Canada",
     date: "2018 - 2022",
-    responsibilities: ["Managed operations of a Canada-Wide randomized controlled clinical study", "Coordinated the delivery of 50+ return-to-work program for workers with arthritis  ", "Built an online interactive educational program to help workers with arthritis to deal with work place challenges ", "Liason with international researchers to discuss adoption of the Making it Work program in other countries"],
+    responsibilities: ["Managed operations of a Canada-Wide randomized controlled clinical study", "Coordinated the delivery of 50+ return-to-work program for workers with arthritis  ", "Built an online interactive educational program to help workers with arthritis to deal with work place challenges ", "Liased with international researchers to discuss adoption of the Making it Work program in other countries"],
   },
 ];
 

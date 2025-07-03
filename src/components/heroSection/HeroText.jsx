@@ -4,13 +4,13 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const HeroText = () => {
   return (
-    <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center">
+    <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center translate-x-[80px]">
       <motion.h2
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="lg:text-3xl sm:text-xl text-orange"
+        className="lg:text-2xl sm:text-xl text-orange"
       >
         <span className="animate-waving">👋</span> Hello
       </motion.h2>
@@ -19,7 +19,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-8xl sm:text-6xl font-bold font-special text-black"
+        className="md:text-[2.8rem] lg:text-6xl sm:text-3xl font-bold font-special text-black"
       >
         <span className="text-babyBlue">I'm </span>
         <br />
@@ -30,7 +30,7 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-lg mt-4 text-grey"
+        className="text-base mt-4 text-grey"
       >
         Computer Science & AI,
         <br />
