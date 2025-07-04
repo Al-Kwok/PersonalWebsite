@@ -7,6 +7,7 @@ import { FaJava } from "react-icons/fa6";
 import SingleSkill from './SingleSkill'
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants';
+import { BiLogoCPlusPlus } from "react-icons/bi";
 import { div } from 'motion/react-client';
 
 
@@ -29,6 +30,9 @@ const skills = [{
   {
     skill: "Java",
     icon: FaJava,
+  },{
+    skill: "C++",
+    icon: BiLogoCPlusPlus,
   },
 ];
 
