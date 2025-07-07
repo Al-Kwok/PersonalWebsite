@@ -8,6 +8,7 @@ import SingleSkill from './SingleSkill'
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants';
 import { BiLogoCPlusPlus } from "react-icons/bi";
+import { IoLogoPython } from "react-icons/io5";
 import { div } from 'motion/react-client';
 
 
@@ -30,9 +31,14 @@ const skills = [{
   {
     skill: "Java",
     icon: FaJava,
-  },{
+  },
+  {
     skill: "C++",
     icon: BiLogoCPlusPlus,
+  },
+  {
+    skill: "Python",
+    icon: IoLogoPython,
   },
 ];
 

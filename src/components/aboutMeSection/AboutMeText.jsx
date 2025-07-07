@@ -13,9 +13,11 @@ const AboutMeText = () => {
         to learn new technologies and finding opportunities for tech solutions.
         Let's build something great together!
       </p>
-      {/*<button className="border border-babyBlue rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-cyan transition-all duration-500 cursor-pointer md:self-start sm:self-center text-black hover:text-pureWhite">
-        My Projects
-      </button> */}
+      <a href="/akwok-cv.pdf" target="_blank" rel="noopener noreferrer">
+        <button className="border border-babyBlue rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-cyan transition-all duration-500 cursor-pointer md:self-start sm:self-center text-black hover:text-pureWhite">
+          My CV
+        </button>
+      </a>
     </div>
   );
 };

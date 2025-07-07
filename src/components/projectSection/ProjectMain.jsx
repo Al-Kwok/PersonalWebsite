@@ -6,25 +6,11 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacations of Africa",
-    year: "Mar2022",
+    name: "Electronic Health Record App",
+    year: "Mar2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
-  },
-  {
-    name: "Moola App",
-    year: "Sept2022",
-    align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
-  },
-  {
-    name: "Tourzania",
-    year: "Jan2023",
-    align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "appLandPg.jpg",
+    link: "https://github.com/Al-Kwok/Electronic-Health-Record",
   },
 ];
 
@@ -40,7 +26,7 @@ const ProjectMain = () => {
         <ProjectText />
       </motion.div>
 
-      {/*<div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-8">
         {projects.map((item, index) => {
           return (
             <SingleProject
@@ -49,10 +35,11 @@ const ProjectMain = () => {
               year={item.year}
               align={item.align}
               image={item.image}
+              link={item.link}
             />
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 };
